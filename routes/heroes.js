@@ -71,4 +71,8 @@ router.delete("/:heroId", async (req, res) => {
   res.send(hero);
 });
 
+router.post("/",async (req,res)=> {
+  
+})
+
 module.exports = router;
